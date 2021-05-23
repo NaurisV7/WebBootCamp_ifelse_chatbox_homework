@@ -1,3 +1,40 @@
+body {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hidden {
     display: none;
+}
+
+.margin {
+    margin-top: 10px;
+}
+
+button {
+    font-size: 22px;
+    height: 40px;
+    width: 90px;
+}
+
+input {
+    font-size: 25px;
+    height: 30px;
+    width: 220px;
 }
